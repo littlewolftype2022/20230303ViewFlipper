@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/viewFlipper"
+    >
+
+    <include
+        android:id="@+id/view1"
+        layout="@layout/view1"
+        />
+    <include
+        android:id="@+id/view2"
+        layout="@layout/view2"
+        />
+    <include
+        android:id="@+id/view3"
+        layout="@layout/view3"
+        />
+    <include
+        android:id="@+id/view4"
+        layout="@layout/view4"
+        />
+    <include
+        android:id="@+id/view5"
+        layout="@layout/view5"
+        />
+
+</ViewFlipper>
